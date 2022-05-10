@@ -1,0 +1,132 @@
+2022-05-10 12:59:18.561  WARN 16456 --- [http-nio-8080-exec-8] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/test, version : 1.2.8, lastPacketReceivedIdleMillis : 143607
+2022-05-10 12:59:18.582 DEBUG 16456 --- [http-nio-8080-exec-8] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 12:59:18.582 DEBUG 16456 --- [http-nio-8080-exec-8] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 12:59:18.583 DEBUG 16456 --- [http-nio-8080-exec-8] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 12:59:55.101  INFO 3720 --- [main] mao.spring_boot_cache_redis.CacheTest    : Starting CacheTest using Java 16.0.2 on mao with PID 3720 (started by mao in H:\程序\大三下期\spring_boot_cache_redis)
+2022-05-10 12:59:55.102 DEBUG 3720 --- [main] mao.spring_boot_cache_redis.CacheTest    : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 12:59:55.103  INFO 3720 --- [main] mao.spring_boot_cache_redis.CacheTest    : The following 1 profile is active: "dev"
+2022-05-10 12:59:55.815  INFO 3720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 12:59:55.818  INFO 3720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-10 12:59:55.845  INFO 3720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2022-05-10 12:59:56.428  INFO 3720 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-10 12:59:56.731  INFO 3720 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-10 12:59:59.053  INFO 3720 --- [main] mao.spring_boot_cache_redis.CacheTest    : Started CacheTest in 4.364 seconds (JVM running for 5.338)
+2022-05-10 13:00:00.053 DEBUG 3720 --- [main] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 13:00:00.093 DEBUG 3720 --- [main] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 13:00:00.121 DEBUG 3720 --- [main] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 13:00:00.124 DEBUG 3720 --- [main] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 13:00:00.125 DEBUG 3720 --- [main] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 13:00:00.126 DEBUG 3720 --- [main] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 13:00:00.592 DEBUG 3720 --- [main] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 13:00:00.593 DEBUG 3720 --- [main] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 13:00:00.595 DEBUG 3720 --- [main] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 13:00:01.171  INFO 3720 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-10 13:00:01.175  INFO 3720 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-10 13:00:12.805  INFO 13280 --- [main] mao.spring_boot_cache_redis.CacheTest    : Starting CacheTest using Java 16.0.2 on mao with PID 13280 (started by mao in H:\程序\大三下期\spring_boot_cache_redis)
+2022-05-10 13:00:12.806 DEBUG 13280 --- [main] mao.spring_boot_cache_redis.CacheTest    : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 13:00:12.807  INFO 13280 --- [main] mao.spring_boot_cache_redis.CacheTest    : The following 1 profile is active: "dev"
+2022-05-10 13:00:13.532  INFO 13280 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:00:13.535  INFO 13280 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-10 13:00:13.561  INFO 13280 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2022-05-10 13:00:14.094  INFO 13280 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-10 13:00:14.341  INFO 13280 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-10 13:00:16.496  INFO 13280 --- [main] mao.spring_boot_cache_redis.CacheTest    : Started CacheTest in 4.106 seconds (JVM running for 5.032)
+2022-05-10 13:00:17.432 DEBUG 13280 --- [main] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 13:00:17.474 DEBUG 13280 --- [main] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 13:00:17.508 DEBUG 13280 --- [main] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 13:00:17.512 DEBUG 13280 --- [main] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 13:00:17.513 DEBUG 13280 --- [main] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 13:00:17.514 DEBUG 13280 --- [main] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 13:00:18.007 DEBUG 13280 --- [main] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 13:00:18.008 DEBUG 13280 --- [main] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 13:00:18.010 DEBUG 13280 --- [main] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 13:00:18.229  INFO 13280 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-10 13:00:18.232  INFO 13280 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-10 13:00:29.599  INFO 4264 --- [main] mao.spring_boot_cache_redis.CacheTest    : Starting CacheTest using Java 16.0.2 on mao with PID 4264 (started by mao in H:\程序\大三下期\spring_boot_cache_redis)
+2022-05-10 13:00:29.600 DEBUG 4264 --- [main] mao.spring_boot_cache_redis.CacheTest    : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 13:00:29.600  INFO 4264 --- [main] mao.spring_boot_cache_redis.CacheTest    : The following 1 profile is active: "dev"
+2022-05-10 13:00:30.292  INFO 4264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:00:30.295  INFO 4264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-10 13:00:30.320  INFO 4264 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2022-05-10 13:00:30.857  INFO 4264 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-10 13:00:31.140  INFO 4264 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-10 13:00:33.297  INFO 4264 --- [main] mao.spring_boot_cache_redis.CacheTest    : Started CacheTest in 4.099 seconds (JVM running for 5.031)
+2022-05-10 13:00:34.381 DEBUG 4264 --- [main] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 13:00:34.426 DEBUG 4264 --- [main] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 13:00:34.457 DEBUG 4264 --- [main] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 13:00:34.460 DEBUG 4264 --- [main] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 13:00:34.460 DEBUG 4264 --- [main] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 13:00:34.462 DEBUG 4264 --- [main] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 13:00:34.942 DEBUG 4264 --- [main] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 13:00:34.943 DEBUG 4264 --- [main] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 13:00:34.945 DEBUG 4264 --- [main] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 13:00:35.106  INFO 4264 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-10 13:00:35.111  INFO 4264 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-10 13:01:00.142  INFO 16772 --- [main] mao.spring_boot_cache_redis.CacheTest    : Starting CacheTest using Java 16.0.2 on mao with PID 16772 (started by mao in H:\程序\大三下期\spring_boot_cache_redis)
+2022-05-10 13:01:00.143 DEBUG 16772 --- [main] mao.spring_boot_cache_redis.CacheTest    : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 13:01:00.143  INFO 16772 --- [main] mao.spring_boot_cache_redis.CacheTest    : The following 1 profile is active: "dev"
+2022-05-10 13:01:00.869  INFO 16772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:01:00.872  INFO 16772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-10 13:01:00.895  INFO 16772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2022-05-10 13:01:01.439  INFO 16772 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-10 13:01:01.701  INFO 16772 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-10 13:01:04.187  INFO 16772 --- [main] mao.spring_boot_cache_redis.CacheTest    : Started CacheTest in 4.444 seconds (JVM running for 5.385)
+2022-05-10 13:01:05.297 DEBUG 16772 --- [main] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 13:01:05.340 DEBUG 16772 --- [main] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 13:01:05.365 DEBUG 16772 --- [main] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 13:01:05.829 DEBUG 16772 --- [main] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 13:01:05.830 DEBUG 16772 --- [main] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 13:01:05.831 DEBUG 16772 --- [main] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 13:01:05.988  INFO 16772 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-10 13:01:05.991  INFO 16772 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-10 13:01:36.391  INFO 12496 --- [main] mao.spring_boot_cache_redis.CacheTest    : Starting CacheTest using Java 16.0.2 on mao with PID 12496 (started by mao in H:\程序\大三下期\spring_boot_cache_redis)
+2022-05-10 13:01:36.393 DEBUG 12496 --- [main] mao.spring_boot_cache_redis.CacheTest    : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 13:01:36.393  INFO 12496 --- [main] mao.spring_boot_cache_redis.CacheTest    : The following 1 profile is active: "dev"
+2022-05-10 13:01:37.129  INFO 12496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:01:37.132  INFO 12496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-10 13:01:37.164  INFO 12496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2022-05-10 13:01:37.702  INFO 12496 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-10 13:01:37.967  INFO 12496 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-10 13:01:40.498  INFO 12496 --- [main] mao.spring_boot_cache_redis.CacheTest    : Started CacheTest in 4.508 seconds (JVM running for 5.477)
+2022-05-10 13:01:41.428 DEBUG 12496 --- [main] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 13:01:41.470 DEBUG 12496 --- [main] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 13:01:41.494 DEBUG 12496 --- [main] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 13:01:41.947 DEBUG 12496 --- [main] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 13:01:41.947 DEBUG 12496 --- [main] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 13:01:41.949 DEBUG 12496 --- [main] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 13:01:42.449  INFO 12496 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-10 13:01:42.453  INFO 12496 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-10 13:01:49.592  INFO 14036 --- [main] mao.spring_boot_cache_redis.CacheTest    : Starting CacheTest using Java 16.0.2 on mao with PID 14036 (started by mao in H:\程序\大三下期\spring_boot_cache_redis)
+2022-05-10 13:01:49.593 DEBUG 14036 --- [main] mao.spring_boot_cache_redis.CacheTest    : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 13:01:49.594  INFO 14036 --- [main] mao.spring_boot_cache_redis.CacheTest    : The following 1 profile is active: "dev"
+2022-05-10 13:01:50.295  INFO 14036 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:01:50.298  INFO 14036 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-10 13:01:50.323  INFO 14036 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2022-05-10 13:01:51.046  INFO 14036 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-10 13:01:51.326  INFO 14036 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-10 13:01:53.747  INFO 14036 --- [main] mao.spring_boot_cache_redis.CacheTest    : Started CacheTest in 4.563 seconds (JVM running for 5.509)
+2022-05-10 13:01:54.687 DEBUG 14036 --- [main] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 13:01:54.730 DEBUG 14036 --- [main] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 13:01:54.754 DEBUG 14036 --- [main] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 13:01:55.212 DEBUG 14036 --- [main] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 13:01:55.213 DEBUG 14036 --- [main] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 13:01:55.214 DEBUG 14036 --- [main] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 13:01:55.762  INFO 14036 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-10 13:01:55.767  INFO 14036 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-10 13:03:00.121  INFO 2252 --- [main] mao.spring_boot_cache_redis.CacheTest    : Starting CacheTest using Java 16.0.2 on mao with PID 2252 (started by mao in H:\程序\大三下期\spring_boot_cache_redis)
+2022-05-10 13:03:00.123 DEBUG 2252 --- [main] mao.spring_boot_cache_redis.CacheTest    : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-10 13:03:00.123  INFO 2252 --- [main] mao.spring_boot_cache_redis.CacheTest    : The following 1 profile is active: "dev"
+2022-05-10 13:03:00.889  INFO 2252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-10 13:03:00.896  INFO 2252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-10 13:03:00.920  INFO 2252 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2022-05-10 13:03:01.437  INFO 2252 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-10 13:03:01.699  INFO 2252 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-10 13:03:04.088  INFO 2252 --- [main] mao.spring_boot_cache_redis.CacheTest    : Started CacheTest in 4.367 seconds (JVM running for 5.298)
+2022-05-10 13:03:05.089 DEBUG 2252 --- [main] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 13:03:05.134 DEBUG 2252 --- [main] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 13:03:05.171 DEBUG 2252 --- [main] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 13:03:05.649 DEBUG 2252 --- [main] m.s.dao.BookDao.selectById               : ==>  Preparing: SELECT id,type,name,description FROM book WHERE id=?
+2022-05-10 13:03:05.650 DEBUG 2252 --- [main] m.s.dao.BookDao.selectById               : ==> Parameters: 1(Integer)
+2022-05-10 13:03:05.651 DEBUG 2252 --- [main] m.s.dao.BookDao.selectById               : <==      Total: 1
+2022-05-10 13:03:06.179  INFO 2252 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-10 13:03:06.183  INFO 2252 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
