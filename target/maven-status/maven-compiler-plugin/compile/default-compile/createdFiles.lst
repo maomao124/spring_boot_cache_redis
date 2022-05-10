@@ -1,0 +1,9 @@
+mao\spring_boot_cache_redis\config\MybatisPlusConfig.class
+mao\spring_boot_cache_redis\service\impl\BookServiceImpl.class
+mao\spring_boot_cache_redis\SpringBootCacheRedisApplication.class
+mao\spring_boot_cache_redis\entity\Book.class
+mao\spring_boot_cache_redis\entity\Result.class
+mao\spring_boot_cache_redis\config\RedisConfig.class
+mao\spring_boot_cache_redis\dao\BookDao.class
+mao\spring_boot_cache_redis\service\IBookService.class
+mao\spring_boot_cache_redis\controller\BookController.class
